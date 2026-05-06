@@ -47,7 +47,8 @@ article {
 
 button {
   background: #F2E205;
-  color: white;
+  color: black;
+  font-weight: bolder;
   border: none;
   padding: 10px;
   cursor: pointer;
