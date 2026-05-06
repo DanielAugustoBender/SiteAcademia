@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: black;
+}
+
+.logo {
+  width: 100px;  /* diminui aqui */
+  height: auto;
+}
+
+header {
+  background-color: #F2E205;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+article {
+    color: white;
+    text-align: center;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produto {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  background: #F2E205;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #F2BD1D;
+}
