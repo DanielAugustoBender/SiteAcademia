@@ -13,18 +13,18 @@
     <h1>GYM COMPLEX</h1>
     <nav>
         <ul>
-            <li><a href="">Roupas</a></li>
-            <li><a href="">Suplementos</a></li>
-            <li><a href="">Acessórios</a></li>
+            <li><a href="#roupas">Roupas</a></li>
+            <li><a href="#suplementos">Suplementos</a></li>
+            <li><a href="#acessorios">Acessórios</a></li>
         </ul>
-    </nav>
+</nav>
   </header>
 
     <div class="titulo">
         <h1>Confira nossos Suplementos</h1>
     </div>
 
-  <section class="produtos">
+  <section id="suplementos" class="produtos">
     <div class="produto">
       <img src="imagens/PreTreino.jpeg" alt="Pré Treino Panic">
       <h2>Pré Treino Panic</h2>
@@ -60,7 +60,7 @@
     <h2>Confira nossa nova linha de roupas!</h2>
   </div>
 
-  <section class="produtos">
+  <section id="roupas" class="produtos">
 
     <div class="produto">
       <img src="imagens/roupasimg/ro1.png" alt="Conjunto PB">
@@ -96,7 +96,7 @@
     <h1>Confira também nossos Acessórios!</h1>
   </div>
 
-  <section class="produtos">
+  <section id="acessorios" class="produtos">
 
     <div class="produto">
       <img src="imagens/ac1.jpeg" alt="Garrafa Integral médica">
@@ -106,7 +106,7 @@
     </div>
 
     <div class="produto">
-      <img src="imagens/ac2.jpeg" alt="Betaalanina Nutrata">
+      <img src="imagens/ac2.jpeg" alt="Coqueteleira Nutrata">
       <h2>Coqueteleira Nutrata</h2>
       <p>R$ 15,00</p>
       <button onclick="comprar('Coqueteleira','15,00')">Comprar</button>
@@ -114,7 +114,30 @@
 
   </section>
 
-  <script src="script.js"></script>
+  <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>GYM COMPLEX</h2>
+            <p>Seu desempenho começa aqui.</p>
+        </div>
+
+        <div class="footer-contato">
+            <h3>Contato</h3>
+
+            <p>📱 (49) 99189-9875</p>
+            <p><a href="https://maps.app.goo.gl/n6wK9dVMGbKjyDCY9" target="_blank">📍Av Bandeirantes, n 666, Centro, Campo Erê - SC</a></p>
+        </div>
+
+        </div>
+
+        <div class="footer-copy">
+            <p>© 2026 Gym Complex - Todos os direitos reservados.</p>
+        </div>
+   </footer>
+
+   <script src="script.js"></script>
 
 </body>
 </html>

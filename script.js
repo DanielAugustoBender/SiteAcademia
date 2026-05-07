@@ -1,6 +1,6 @@
 function comprar(produto, preco) {
 
-  let numero = "5549992025959";
+  let numero = "5549991899875";
 
   let mensagem =
   `Olá! Tenho interesse no ${produto} no valor de R$ ${preco}.`;
