@@ -36,28 +36,29 @@ ul {
 }
 
 ul li a {
+    position: relative;
     color: black;
     text-decoration: none;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 ul li a::before {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: -5px;
     width: 0%;
     height: 3px;
-    background-color: #fff;
+    background-color: black;
     transition: all 0.3s ease-in-out;
 }
 
 ul li a:hover::before {
     left: 0;
     width: 100%;
-    background-color: #fff;
-    border-radius: 2px;
 }
 
 .titulo {
@@ -117,18 +118,25 @@ button:hover {
 
 @media (max-width: 768px) {
 
-  .cabecalho {
-    flex-direction: column;
-    text-align: center;
-  }
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+    ul {
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
 
-  .produto {
-    max-width: 90%;
-  }
+    .produto {
+        max-width: 45%;
+        flex-basis: 45%;
+        padding: 10px;
+    }
+
+    .produto img {
+        height: 150px;
+    }
 
 }
