@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
   font-family: Arial;
   margin: 0;
   background-color: #111;
+  overflow-x: hidden;
 }
 
 html {
@@ -230,8 +234,8 @@ button:hover {
     }
 
     .produto {
-        max-width: 42%;
-        flex-basis: 42%;
+        max-width: 48%;
+        flex-basis: 48%;
         padding: 10px;
         min-height: 320px;
     }
