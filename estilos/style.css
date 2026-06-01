@@ -28,6 +28,10 @@ header {
   padding: 20px;
 }
 
+header > h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .cabecalho {
   display: flex;
   align-items: center;
