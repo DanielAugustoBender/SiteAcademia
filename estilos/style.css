@@ -137,10 +137,9 @@ section {
 }
 
 .produto p {
+     font-family: monospace;
      font-weight: bold;
-    text-shadow:
-    0 0 5px #F2E205,
-    0 0 10px #F2E205;
+     font-size: 1.2em;
 }
 
 .produto:hover {
